@@ -9,7 +9,7 @@ public class Temperature {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";        //Configure the driver needed
     static final String DB_NAME = "temp";     //TODO create a database called "temp"
     static final String DB_CONNECTION_URL = "jdbc:mysql://localhost:3306/" + DB_NAME;     //Connection string – where's the database?
-    static final String USER = "user";   //TODO replace with your username
+    static final String USER = "root";   //TODO replace with your username
     static final String PASSWORD = "password";   //TODO replace with your password
 
     public static void main(String[] args) {
